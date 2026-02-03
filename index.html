@@ -3,143 +3,245 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="StudentTech biedt professionele computerhulp aan huis in Utrecht. Betaalbaar, betrouwbaar en persoonlijk.">
-    <title>StudentTech | Computerhulp aan Huis in Utrecht</title>
+    <meta name="description" content="Computerhulp aan huis in Utrecht. Ik help u met een trage computer, internet dat niet werkt en andere computerproblemen. Eerlijk en betaalbaar.">
+    <title>Hulp bij Computerproblemen aan Huis | StudentTech Utrecht</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header-content">
-                <div class="brand">
-                    <h1 class="brand-name">StudentTech</h1>
-                    <span class="brand-tagline">Computerhulp aan Huis</span>
+                <div class="logo">
+                    <strong>StudentTech</strong>
+                    <span>Computerhulp</span>
                 </div>
                 <nav class="nav">
                     <a href="index.html" class="nav-link active">Home</a>
-                    <a href="diensten.html" class="nav-link">Diensten</a>
+                    <a href="diensten.html" class="nav-link">Wat ik doe</a>
                     <a href="over-mij.html" class="nav-link">Over mij</a>
-                    <a href="contact.html" class="nav-link nav-link-cta">Contact</a>
+                    <a href="contact.html" class="nav-link-phone">☎ 06 - 12 34 56 78</a>
                 </nav>
             </div>
         </div>
     </header>
 
     <main>
+        <!-- HERO SECTION -->
         <section class="hero">
             <div class="container">
-                <div class="hero-content">
-                    <h2 class="hero-title">Betrouwbare computerhulp <span class="hero-highlight">bij u aan huis</span></h2>
-                    <p class="hero-description">Technische problemen of vragen? Ik kom naar u toe voor persoonlijke hulp zonder voorrijkosten. Professioneel, geduldig en betaalbaar.</p>
-                    <div class="hero-actions">
-                        <a href="contact.html" class="button button-primary">Direct contact opnemen</a>
-                        <a href="diensten.html" class="button button-secondary">Bekijk diensten</a>
+                <h1 class="hero-title">Problemen met uw computer?<br>Ik kom bij u thuis</h1>
+                <p class="hero-subtitle">Student helpt u met een trage computer, internet dat niet werkt,<br>en andere computerproblemen</p>
+                
+                <div class="hero-buttons">
+                    <a href="tel:0612345678" class="button button-large">
+                        <span class="button-icon">📞</span>
+                        Bel direct: 06 - 12 34 56 78
+                    </a>
+                    <a href="#hoe-werkt-het" class="button button-outline">Hoe werkt het?</a>
+                </div>
+
+                <div class="trust-badges">
+                    <div class="badge">✓ Voorrijkosten €5,- binnen Utrecht</div>
+                    <div class="badge">✓ Ook hulp op afstand mogelijk</div>
+                    <div class="badge">✓ Uitleg in begrijpelijke taal</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROBLEMEN SECTION -->
+        <section class="problemen">
+            <div class="container">
+                <h2 class="section-title">Herkent u dit?</h2>
+                <p class="section-intro">U bent niet de enige. Deze problemen los ik elke week op:</p>
+
+                <div class="problemen-grid">
+                    <div class="probleem-card">
+                        <div class="probleem-icon">🐌</div>
+                        <h3>Computer is heel langzaam</h3>
+                        <p>Het duurt lang voordat programma's opstarten of de computer reageert nauwelijks</p>
+                    </div>
+
+                    <div class="probleem-card">
+                        <div class="probleem-icon">📶</div>
+                        <h3>Internet werkt niet</h3>
+                        <p>Geen verbinding met internet of wifi werkt niet goed</p>
+                    </div>
+
+                    <div class="probleem-card">
+                        <div class="probleem-icon">⚠️</div>
+                        <h3>Vreemde meldingen</h3>
+                        <p>Er verschijnen foutmeldingen die u niet begrijpt</p>
+                    </div>
+
+                    <div class="probleem-card">
+                        <div class="probleem-icon">📧</div>
+                        <h3>E-mail lukt niet</h3>
+                        <p>E-mail versturen of ontvangen werkt niet meer</p>
+                    </div>
+
+                    <div class="probleem-card">
+                        <div class="probleem-icon">🖨️</div>
+                        <h3>Printer doet het niet</h3>
+                        <p>Printer is niet verbonden of print niet</p>
+                    </div>
+
+                    <div class="probleem-card">
+                        <div class="probleem-icon">❓</div>
+                        <h3>Iets anders</h3>
+                        <p>Ook voor andere computerproblemen kunt u bellen</p>
+                    </div>
+                </div>
+
+                <div class="call-to-action-box">
+                    <p><strong>Uw probleem staat er niet bij?</strong> Bel gerust, ik help met bijna alle computerproblemen.</p>
+                    <a href="tel:0612345678" class="button">Bel voor hulp: 06 - 12 34 56 78</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOE WERKT HET SECTION -->
+        <section class="hoe-werkt-het" id="hoe-werkt-het">
+            <div class="container">
+                <h2 class="section-title">Zo werkt het</h2>
+                <p class="section-intro">In 3 eenvoudige stappen</p>
+
+                <div class="stappen">
+                    <div class="stap">
+                        <div class="stap-nummer">1</div>
+                        <h3>U belt of mailt mij</h3>
+                        <p>Vertel kort wat het probleem is. Ik leg uit of ik kan helpen.</p>
+                    </div>
+
+                    <div class="stap-pijl">→</div>
+
+                    <div class="stap">
+                        <div class="stap-nummer">2</div>
+                        <h3>We maken een afspraak</h3>
+                        <p>Ik kom bij u thuis op een moment dat u uitkomt. Vaak nog dezelfde of volgende dag.</p>
+                    </div>
+
+                    <div class="stap-pijl">→</div>
+
+                    <div class="stap">
+                        <div class="stap-nummer">3</div>
+                        <h3>Ik los het op</h3>
+                        <p>Ik help uw computer weer werkend te krijgen en leg uit wat ik heb gedaan.</p>
+                    </div>
+                </div>
+
+                <div class="extra-info-box">
+                    <h4>💻 Hulp op afstand ook mogelijk</h4>
+                    <p>Voor sommige problemen kan ik ook op afstand helpen via internet. Dan hoef ik niet langs te komen en gaat het vaak sneller.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- WAAROM IK SECTION -->
+        <section class="waarom">
+            <div class="container">
+                <h2 class="section-title">Waarom StudentTech kiezen?</h2>
+
+                <div class="waarom-grid">
+                    <div class="waarom-item">
+                        <div class="waarom-icon">🏠</div>
+                        <h3>Ik kom bij u thuis</h3>
+                        <p>U hoeft niet met uw computer te sjouwen. Ik kom naar u toe in Utrecht en omgeving.</p>
+                    </div>
+
+                    <div class="waarom-item">
+                        <div class="waarom-icon">💬</div>
+                        <h3>Rustige uitleg</h3>
+                        <p>Ik neem de tijd om alles uit te leggen in gewone taal, zonder moeilijke woorden.</p>
+                    </div>
+
+                    <div class="waarom-item">
+                        <div class="waarom-icon">🎓</div>
+                        <h3>Student informatica</h3>
+                        <p>Ik studeer ICT aan de hogeschool en help al jaren mensen met computerproblemen.</p>
+                    </div>
+
+                    <div class="waarom-item">
+                        <div class="waarom-icon">💶</div>
+                        <h3>Eerlijke prijs</h3>
+                        <p>€40,- per uur + €5,- voorrijkosten. Geen verborgen kosten. U weet van tevoren wat het kost.</p>
+                    </div>
+
+                    <div class="waarom-item">
+                        <div class="waarom-icon">⏰</div>
+                        <h3>Snel beschikbaar</h3>
+                        <p>Vaak kan ik nog dezelfde of volgende dag langskomen. Ook in het weekend.</p>
+                    </div>
+
+                    <div class="waarom-item">
+                        <div class="waarom-icon">🤝</div>
+                        <h3>Geduldig en vriendelijk</h3>
+                        <p>Geen enkele vraag is te simpel. Ik help u met geduld en een vriendelijke uitleg.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="features">
+        <!-- PRIJZEN SECTION -->
+        <section class="prijzen">
             <div class="container">
-                <div class="features-grid">
-                    <div class="feature">
-                        <div class="feature-content">
-                            <h3 class="feature-title">Persoonlijke service</h3>
-                            <p class="feature-description">Ik kom bij u thuis en neem de tijd om uw probleem grondig op te lossen. U hoeft nergens naartoe.</p>
-                        </div>
+                <h2 class="section-title">Wat kost het?</h2>
+                
+                <div class="prijs-box">
+                    <div class="prijs-hoofd">
+                        <div class="prijs-bedrag">€40,-</div>
+                        <div class="prijs-label">per uur</div>
                     </div>
-                    <div class="feature">
-                        <div class="feature-content">
-                            <h3 class="feature-title">Heldere uitleg</h3>
-                            <p class="feature-description">Geen ingewikkeld vakjargon. Alles wordt in begrijpelijke taal uitgelegd, zodat u het ook zelf leert.</p>
-                        </div>
-                    </div>
-                    <div class="feature">
-                        <div class="feature-content">
-                            <h3 class="feature-title">Eerlijke prijzen</h3>
-                            <p class="feature-description">Vaste uurtarieven zonder verborgen kosten. Student- en seniorenkorting beschikbaar.</p>
-                        </div>
-                    </div>
-                    <div class="feature">
-                        <div class="feature-content">
-                            <h3 class="feature-title">Snelle reactie</h3>
-                            <p class="feature-description">Meestal binnen enkele uren beschikbaar. Voor spoedgevallen doe ik mijn uiterste best u dezelfde dag te helpen.</p>
-                        </div>
-                    </div>
+                    <ul class="prijs-details">
+                        <li>✓ Minimaal 30 minuten (ook als het korter duurt)</li>
+                        <li>✓ Voorrijkosten: €5,- (binnen Utrecht)</li>
+                        <li>✓ Hulp op afstand: geen voorrijkosten</li>
+                        <li>✓ U betaalt na afloop, contant of per bank</li>
+                    </ul>
+                </div>
+
+                <div class="prijs-voorbeeld">
+                    <h4>Voorbeeld</h4>
+                    <p>Als ik 45 minuten bij u thuis ben: €40,- (1 uur) + €5,- (voorrijkosten) = €45,- totaal</p>
                 </div>
             </div>
         </section>
 
-        <section class="services-preview">
+        <!-- CONTACT CTA SECTION -->
+        <section class="contact-cta">
             <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Hoe kan ik u helpen?</h2>
-                    <p class="section-description">Van eenvoudige vragen tot complexe problemen — ik sta voor u klaar met praktische oplossingen.</p>
-                </div>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <h3 class="service-title">Problemen oplossen</h3>
-                        <p class="service-description">Computer traag, foutmeldingen of programma's die niet werken? Ik analyseer het probleem en los het op.</p>
-                    </div>
-                    <div class="service-card">
-                        <h3 class="service-title">Installatie & configuratie</h3>
-                        <p class="service-description">Nieuwe apparatuur instellen, software installeren of overstappen naar een nieuwe computer. Alles wordt zorgvuldig aangesloten en geconfigureerd.</p>
-                    </div>
-                    <div class="service-card">
-                        <h3 class="service-title">Beveiliging & onderhoud</h3>
-                        <p class="service-description">Uw computer beveiligen tegen virussen, back-ups maken en het systeem sneller maken door optimalisatie.</p>
-                    </div>
-                    <div class="service-card">
-                        <h3 class="service-title">Training & ondersteuning</h3>
-                        <p class="service-description">Leren werken met uw computer, specifieke programma's of online diensten. Op uw eigen tempo.</p>
-                    </div>
-                </div>
-                <div class="section-footer">
-                    <a href="diensten.html" class="button button-outline">Bekijk alle diensten en tarieven</a>
-                </div>
-            </div>
-        </section>
+                <h2 class="section-title-white">Hulp nodig?</h2>
+                <p class="contact-subtitle">Bel of mail mij. Ik help u graag.</p>
 
-        <section class="trust">
-            <div class="container">
-                <div class="trust-content">
-                    <div class="trust-text">
-                        <h2 class="trust-title">Waarom kiezen voor StudentTech?</h2>
-                        <p class="trust-description">Als derdejaars Informatica student aan de Universiteit Utrecht combineer ik academische kennis met praktijkervaring. Ik help al jaren mensen met computerproblemen en weet hoe belangrijk het is om duidelijk te communiceren en geduld te hebben.</p>
-                        <p class="trust-description">Mijn doel is simpel: technologie toegankelijk maken voor iedereen. Of u nu 20 of 80 bent, student of gepensioneerd — u verdient betrouwbare hulp tegen een eerlijke prijs.</p>
-                        <a href="over-mij.html" class="link-arrow">Meer over mij</a>
-                    </div>
-                    <div class="trust-stats">
-                        <div class="stat">
-                            <div class="stat-value">100+</div>
-                            <div class="stat-label">Tevreden klanten</div>
+                <div class="contact-opties">
+                    <a href="tel:0612345678" class="contact-optie">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-info">
+                            <div class="contact-label">Bellen</div>
+                            <div class="contact-waarde">06 - 12 34 56 78</div>
                         </div>
-                        <div class="stat">
-                            <div class="stat-value">24u</div>
-                            <div class="stat-label">Gemiddelde reactietijd</div>
-                        </div>
-                        <div class="stat">
-                            <div class="stat-value">5★</div>
-                            <div class="stat-label">Gemiddelde beoordeling</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                    </a>
 
-        <section class="cta">
-            <div class="container">
-                <div class="cta-content">
-                    <h2 class="cta-title">Hulp nodig? Neem vrijblijvend contact op</h2>
-                    <p class="cta-description">Ik help u graag verder. Bel, mail of vul het contactformulier in voor een afspraak.</p>
-                    <div class="cta-actions">
-                        <a href="tel:0612345678" class="button button-primary">06 - 12 34 56 78</a>
-                        <a href="contact.html" class="button button-secondary">Contactformulier</a>
-                    </div>
+                    <a href="https://wa.me/31612345678" class="contact-optie">
+                        <div class="contact-icon">💬</div>
+                        <div class="contact-info">
+                            <div class="contact-label">WhatsApp</div>
+                            <div class="contact-waarde">06 - 12 34 56 78</div>
+                        </div>
+                    </a>
+
+                    <a href="mailto:info@studenttech.nl" class="contact-optie">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-info">
+                            <div class="contact-label">E-mailen</div>
+                            <div class="contact-waarde">info@studenttech.nl</div>
+                        </div>
+                    </a>
                 </div>
+
+                <p class="beschikbaar">Bereikbaar: maandag t/m zaterdag, 09:00 - 21:00 uur</p>
             </div>
         </section>
     </main>
@@ -148,30 +250,17 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-info">
-                    <div class="brand-footer">
-                        <h3 class="brand-name">StudentTech</h3>
-                        <p class="brand-tagline">Computerhulp aan Huis</p>
-                    </div>
-                    <p class="footer-text">Professionele en betaalbare computerhulp in Utrecht en omgeving.</p>
+                    <strong>StudentTech</strong>
+                    <p>Computerhulp aan huis in Utrecht en omgeving</p>
                 </div>
-                <div class="footer-links">
-                    <div class="footer-column">
-                        <h4 class="footer-heading">Navigatie</h4>
-                        <a href="index.html" class="footer-link">Home</a>
-                        <a href="diensten.html" class="footer-link">Diensten</a>
-                        <a href="over-mij.html" class="footer-link">Over mij</a>
-                        <a href="contact.html" class="footer-link">Contact</a>
-                    </div>
-                    <div class="footer-column">
-                        <h4 class="footer-heading">Contact</h4>
-                        <a href="tel:0612345678" class="footer-link">06 - 12 34 56 78</a>
-                        <a href="mailto:info@studenttech.nl" class="footer-link">info@studenttech.nl</a>
-                        <p class="footer-text-small">Ma – Za: 09:00 – 21:00</p>
-                    </div>
+                <div class="footer-contact">
+                    <p>Telefoon: <a href="tel:0612345678">06 - 12 34 56 78</a></p>
+                    <p>E-mail: <a href="mailto:info@studenttech.nl">info@studenttech.nl</a></p>
+                    <p>Ma – Za: 09:00 – 21:00 uur</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p class="footer-copyright">© 2024 StudentTech. Alle rechten voorbehouden.</p>
+                <p>© 2024 StudentTech</p>
             </div>
         </div>
     </footer>
